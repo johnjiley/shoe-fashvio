@@ -1,0 +1,33 @@
+.custom-navbar {
+    background-color:#000000;
+  }
+  
+  .custom-navbar .navbar-brand, 
+  .custom-navbar .nav-link {
+    color: #F0F0F0;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #A8A8A8;
+  }
+  
+  .custom-navbar .btn-custom-search {
+    background-color: #28A745;
+    color: white;
+  }
+  /* Navbar.css */
+
+/* Styling for the cart icon container */
+.cart-icon-container {
+  margin-left: auto; /* Pushes the cart icon to the right */
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the cart icon */
+.cart-icon {
+  width: 50px; /* Adjust size to fit in the navbar */
+  height: 50px; /* Adjust size to fit in the navbar */
+  cursor: pointer;
+  margin-left: 50px; /* Space between search button and cart icon */
+}
