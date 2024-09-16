@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
-import cartIcon from '../assets/trolley.png';
+// import cartIcon from '../assets/trolley.png';
 
 // import { Link } from "react-router-dom";
 
@@ -33,11 +33,11 @@ function NavScrollExample() {
             <Nav.Link href="/AddProduct">AddProduct</Nav.Link>
             
 
-            <div className="cart-icon-container">
+            {/* <div className="cart-icon-container">
             <a href="/cart">
               <img src={cartIcon} alt="Cart" className="cart-icon" />
             </a>
-          </div>
+          </div> */}
 
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown"> */}
               {/* <NavDropdown.Item href="#action3">Action</NavDropdown.Item>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Slider from "./Slider";
+import Slider from "../Slider/Slider";
 // import Card from "./../Components/Card";
 
 export default function Home() {
@@ -14,3 +14,4 @@ export default function Home() {
     </>
   );
 }
+

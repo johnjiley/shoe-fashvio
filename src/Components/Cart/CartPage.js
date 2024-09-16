@@ -6,7 +6,7 @@ const CartPage = () => {
   const { cartItems, removeFromCart, clearCart } = useContext(CartContext);
 
   const cleanPrice = (price) => {
-    return Number(price.replace(/[^0-9.-]+/g, "")); 
+    return Number(price.replace(/[^0-9.-]+/g,"")); 
   };
 
   const total = cartItems.reduce((sum, item) => sum + cleanPrice(item.price), 0);
@@ -29,7 +29,7 @@ const CartPage = () => {
                 <div className="cart-item-content">
                   <h3 className="cart-item-name">{item.name}</h3>
                   <p className="cart-item-description">{item.description}</p>
-                  <p className="cart-item-price">Price: ${item.price}</p>
+                  <p className="cart-item-price">Price: {item.price}</p>
                   <div className="cart-buttons">
                     <button
                       onClick={() => {
@@ -52,7 +52,7 @@ const CartPage = () => {
             ))}
           </div>
           <div className="mt-8">
-            <p className="cart-total">Total: ${total.toFixed(2)}</p>
+            <p className="cart-total">Total: ${total}</p>
             <button
               onClick={clearCart}
               className="cart-clear-btn"

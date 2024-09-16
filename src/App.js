@@ -1,16 +1,15 @@
 import React from 'react';
-import NavBar from "./Components/Navbar";
-import Home from "./Components/Home";
-import Product from "./Components/Product";
-// import ShoppingCart from "./Components/ShoppingCart";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import { CartProvider } from "./Components/CartContext";
 import { Route, Routes } from 'react-router-dom';
-import CartPage from './Components/CartPage';
-import AddProduct from './Components/AddProduct'; // Import AddProduct
-import { ProductProvider } from './Components/ProductContext';
+import NavBar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import Product from "./Components/Product/Product";
+import CartPage from "./Components/Cart/CartPage";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import AddProduct from './Components/AddProduct/AddProduct';
+import { CartProvider } from "./Components/Cart/CartContext";
+import { ProductProvider } from './Components/Product/ProductContext';
 
 
 

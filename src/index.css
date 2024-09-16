@@ -12,104 +12,17 @@ code {
     monospace;
 }
 
-
-.Contact {
-  background-image: url("D:\react\shoe\client\public/shoe15.jpg");
-  /* background-image: url("https://wallpapercave.com/wp/wp1835005.jpg"); */
-  background-position:center;
-  background-size: cover;
-  
-}
-.main {
-  /* background-color: #045d51; */
-  background-image: url("D:\react\shoe\client\public/shoe15.jpg");
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background-size: cover;
-  font-family: 'Arial', sans-serif;
-  width:100%;
-  margin: auto;
-  transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-out;
-  &:hover {
-    transform: scale(1.05);
-  }
-}
-.main-sub {
-  background: rgba(0,0,0,0.5);
-  color: lemonchiffon;
-  padding: 49px;
-  border-radius: 8px;
-}
-Form label{
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-  
+html, body {
+  height: 100%; /* Ensure the body takes full viewport height */
+  margin: 0;
 }
 
-Form input[type="text"],
-Form input[type="email"] {
-  width: 100%;
-  padding:10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;;
-
-}
-Form button {
-  background-color: #7e34e6;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-
-  &:hover {
-    background-color: #5a1d8e;
-  }
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the root element takes full viewport height */
 }
 
-p {
-  padding:10px;
-  padding-left: 8px;
-  color:#022b1c;
-  text-decoration: none;
-  text-transform:lowercase;
-  text-overflow: clip;
-  
-    width: 100%;
-    height: 100%;
-    text-align: justify;
-}
-p.para {
-  text-align:justify;
-}
-.about-name {
-  float: left;
-}
-.img-name {
-  text-align: center;
-}
-.square img {
-  background-position: right;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  background-position: justify;
-  font-family: 'Arial', sans-serif;
-  width:180px;
-  margin-right: auto;
-  transition: transform 0.2s ease-in;
-  /* transition: transform 0.2s ease-out; */
-  &:hover {
-    transform: scale(1.05);
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
+.content {
+  flex: 1; /* This will make the content area grow to take available space */
 }

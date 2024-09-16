@@ -2,24 +2,29 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container"; // Correctly import Container
+import shoe15 from '../../assets/shoe15.jpg'; // Assuming the image is in src/assets/
 
 function GridComplexExample() {
   return (
-    <Form className="main">
-      {/* <section className="Contact vh-100"> */}
-      <container>
-        <div class="row">
-          <div class="col-8 offset-2 main-sub">
-            {/* <img className="d-block w-100" src="image4.jpg" alt=" " /> */}
+    <div>
+      {/* Main container for the form */}
+      <Container className="main-container">
+        {/* Apply the background image to the Form or main-sub div */}
+        <div className="main-sub" style={{ backgroundImage: `url(${shoe15})`, backgroundSize: 'cover', backgroundPosition: 'center', padding: '20px', borderRadius: '8px' }}>
+        <div className="Contact">
+</div>
+
+          <Form>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="Name" placeholder="Enter Name" />
+                <Form.Control type="text" placeholder="Enter Name" />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Contact</Form.Label>
-                <Form.Control type="Phone Number" placeholder=" Phone Number" />
+                <Form.Control type="text" placeholder="Phone Number" />
               </Form.Group>
             </Row>
 
@@ -60,11 +65,10 @@ function GridComplexExample() {
             <Button variant="primary" type="submit">
               Submit
             </Button>
-          </div>
+          </Form>
         </div>
-      </container>
-      {/* </section> */}
-    </Form>
+      </Container>
+    </div>
   );
 }
 

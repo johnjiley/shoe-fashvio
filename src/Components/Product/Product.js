@@ -1,10 +1,12 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext,useState, useEffect} from 'react';
 import './Product.css';
-import { CartContext } from '../Components/CartContext';
-import { ProductContext } from '../Components/ProductContext';
+import { CartContext } from '../Cart/CartContext';
+import { ProductContext } from '../../Components/Product/ProductContext';
 
 function Product({ shoe, onRemove }) {
   const { addToCart, removeFromCart } = useContext(CartContext);
+
+  
 
   const handleAddToCart = () => {
     addToCart(shoe);
@@ -38,9 +40,11 @@ function Product({ shoe, onRemove }) {
 function ShoeStore() {
   const { shoes } = useContext(ProductContext);
   const [shoeList, setShoeList] = useState(shoes);
-  
+ // Ensure shoeList is updated whenever shoes changes in ProductContext
+ useEffect(() => {
+  setShoeList(shoes);
+}, [shoes]);
 
- 
   const handleRemoveProduct = (shoeToRemove) => {
     const updatedShoeList = shoeList.filter(shoe => shoe.name !== shoeToRemove.name);
     setShoeList(updatedShoeList);
@@ -49,12 +53,21 @@ function ShoeStore() {
   return (
     <div className="shoe-store">
       <h1>Products</h1>
-      
       <div className="shoe-grid">
         {shoeList.map((shoe, index) => (
           <Product key={index} shoe={shoe} onRemove={handleRemoveProduct} />
         ))}
       </div>
+
+      {/* <div className="shoe-grid">
+        {shoes.length === 0 ? (
+          <p>No products available.</p>
+        ) : (
+          shoes.map((shoe, index) => (
+            <Product key={index} shoe={shoe} />
+          ))
+        )}
+      </div> */}
     </div>
   );
 }

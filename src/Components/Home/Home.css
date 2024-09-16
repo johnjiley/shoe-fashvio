@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .shoe-store {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+  }
+  
