@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/johnjiley/shoe-fashvio/static/css/main.42882eb6.css",
-    "main.js": "/johnjiley/shoe-fashvio/static/js/main.0b83a09d.js",
-    "static/media/shoe14.jpg": "/johnjiley/shoe-fashvio/static/media/shoe14.bf7abf2c292eaad18749.jpg",
-    "static/media/shoe5.jpg": "/johnjiley/shoe-fashvio/static/media/shoe5.3ef22d277ff834860d44.jpg",
-    "static/media/shoe3.jpg": "/johnjiley/shoe-fashvio/static/media/shoe3.486cbea49da5b8812395.jpg",
-    "static/media/shoe7.jpg": "/johnjiley/shoe-fashvio/static/media/shoe7.e4f263fa29d5fe34f8e2.jpg",
-    "static/media/shoe12.jpg": "/johnjiley/shoe-fashvio/static/media/shoe12.2e3af859d069441d4656.jpg",
-    "static/media/shoe2.jpg": "/johnjiley/shoe-fashvio/static/media/shoe2.df77eba9e965aa45f91d.jpg",
-    "static/media/shoe15.jpg": "/johnjiley/shoe-fashvio/static/media/shoe15.38a009b5294d84143a84.jpg",
-    "static/media/shoe1.jpg": "/johnjiley/shoe-fashvio/static/media/shoe1.067c4a818fec467b247b.jpg",
-    "static/media/shoe11.jpg": "/johnjiley/shoe-fashvio/static/media/shoe11.37895a403cac7df5b72e.jpg",
-    "static/media/shoe6.jpg": "/johnjiley/shoe-fashvio/static/media/shoe6.75338ece01e9002c257b.jpg",
-    "static/media/shoe10.jpg": "/johnjiley/shoe-fashvio/static/media/shoe10.f2f111b8247d17fd3927.jpg",
-    "static/media/shoe8.jpg": "/johnjiley/shoe-fashvio/static/media/shoe8.12a32290364a4a5f17fe.jpg",
-    "static/media/shoe9.jpg": "/johnjiley/shoe-fashvio/static/media/shoe9.295a82753a7abc6b3933.jpg",
-    "index.html": "/johnjiley/shoe-fashvio/index.html",
-    "main.42882eb6.css.map": "/johnjiley/shoe-fashvio/static/css/main.42882eb6.css.map",
-    "main.0b83a09d.js.map": "/johnjiley/shoe-fashvio/static/js/main.0b83a09d.js.map"
+    "main.css": "/shoe-fashvio/static/css/main.a9c57583.css",
+    "main.js": "/shoe-fashvio/static/js/main.d89c0c8c.js",
+    "static/media/shoe14.jpg": "/shoe-fashvio/static/media/shoe14.bf7abf2c292eaad18749.jpg",
+    "static/media/shoe5.jpg": "/shoe-fashvio/static/media/shoe5.3ef22d277ff834860d44.jpg",
+    "static/media/shoe3.jpg": "/shoe-fashvio/static/media/shoe3.486cbea49da5b8812395.jpg",
+    "static/media/shoe7.jpg": "/shoe-fashvio/static/media/shoe7.e4f263fa29d5fe34f8e2.jpg",
+    "static/media/shoe12.jpg": "/shoe-fashvio/static/media/shoe12.2e3af859d069441d4656.jpg",
+    "static/media/shoe2.jpg": "/shoe-fashvio/static/media/shoe2.df77eba9e965aa45f91d.jpg",
+    "static/media/shoe15.jpg": "/shoe-fashvio/static/media/shoe15.38a009b5294d84143a84.jpg",
+    "static/media/shoe1.jpg": "/shoe-fashvio/static/media/shoe1.067c4a818fec467b247b.jpg",
+    "static/media/shoe11.jpg": "/shoe-fashvio/static/media/shoe11.37895a403cac7df5b72e.jpg",
+    "static/media/shoe6.jpg": "/shoe-fashvio/static/media/shoe6.75338ece01e9002c257b.jpg",
+    "static/media/shoe10.jpg": "/shoe-fashvio/static/media/shoe10.f2f111b8247d17fd3927.jpg",
+    "static/media/shoe8.jpg": "/shoe-fashvio/static/media/shoe8.12a32290364a4a5f17fe.jpg",
+    "static/media/shoe9.jpg": "/shoe-fashvio/static/media/shoe9.295a82753a7abc6b3933.jpg",
+    "index.html": "/shoe-fashvio/index.html",
+    "main.a9c57583.css.map": "/shoe-fashvio/static/css/main.a9c57583.css.map",
+    "main.d89c0c8c.js.map": "/shoe-fashvio/static/js/main.d89c0c8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.42882eb6.css",
-    "static/js/main.0b83a09d.js"
+    "static/css/main.a9c57583.css",
+    "static/js/main.d89c0c8c.js"
   ]
 }
