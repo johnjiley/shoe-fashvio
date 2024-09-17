@@ -1,5 +1,5 @@
 .about-container {
-    background-image: url('D:\react\shoe\client\public/shoe14.jpg'); 
+    /* background-image: url('D:\react\shoe\client\public/shoe14.jpg');  */
     /* background-image: url('https://www.hdwallpapers.in/download/supreme_unpaired_gold_and_white_nike_shoe_near_trees_4k_hd-HD.jpg'); */
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the image */
