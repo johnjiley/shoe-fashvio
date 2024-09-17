@@ -7,25 +7,25 @@ function UncontrolledExample() {
         <Carousel.Item interval={1500}>
           <img className="d-block w-100" src="shoe1.jpg" alt=" " />
           <Carousel.Caption>
-            <h3>first slide</h3>
+            {/* <h3>first slide</h3>
             <p>
               Look deep into nature, and then you will understand everything
               better
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img className="d-block w-100" src="shoe2.jpg" alt=" " />
           <Carousel.Caption>
-            <h3>second slide</h3>
-            <p>I AM GROOT</p>
+            {/* <h3>second slide</h3> */}
+            {/* <p>I AM GROOT</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img className="d-block w-100" src="shoe3.jpg" alt=" " />
           <Carousel.Caption>
-            <h3>Label for second slide</h3>
-            <p>Sample Text for Image Two</p>
+            {/* <h3>Label for second slide</h3> */}
+            {/* <p>Sample Text for Image Two</p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
